@@ -1,0 +1,134 @@
+:root {
+    --primarycolor: #131842;
+    --secondarycolor: #E68369;
+    --tertiraycolor: #181850;
+    --btncolor: #405D72;
+    --fonthead: "Montserrat", sans-serif;
+    --fontcontent: "Mulish", sans-serif;
+
+}
+body {
+    background-color: #a2dfc3;
+    font-family: Arial, sans-serif;
+}
+h1{
+    color: white;
+}
+.card {
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-primary {
+    background-color: #2d6a4f;
+    border: none;
+    color: rgb(255, 255, 255);
+}
+
+.btn-primary:hover {
+    background-color: #9aa4ac;
+    color: white;
+}
+
+.alert {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.currency-converter {
+   
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #2d6a4f;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.input-box{
+    width: 80%;
+    border: 1px solid black;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.currency-exchange{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #2d6a4f;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-convert {
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn-convert:hover {
+    background-color: #495057;
+}
+
+.currency-table-section {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #2d6a4f;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.currency-table-section h2 {
+    text-align: center;
+    color: #d4edda;
+    margin-bottom: 20px;
+}
+
+.filter-input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.currency-table {
+    width: 100%;
+    color: #fff;
+    background-color: #1e5128;
+    border-collapse: collapse;
+}
+
+.currency-table th,
+.currency-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.currency-table th {
+    background-color: #2d6a4f;
+}
+
+.currency-table tr:hover {
+    background-color: #3b7756;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #2d6a4f !important;
+    background-color:none;
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid rgb(131, 128, 128);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .375rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+#currencyFilter{
+    width: 50% !important;
+}
+.arrow img{
+    height: 20px;
+    width: 20px;
+}
