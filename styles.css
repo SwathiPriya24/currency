@@ -19,6 +19,7 @@ h1{
     border: none;
 }
 
+
 .btn-primary {
     background-color: #2d6a4f;
     border: none;
@@ -132,3 +133,60 @@ h1{
     height: 20px;
     width: 20px;
 }
+
+
+/* Default styling for desktop */
+.card {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+}
+
+.form-select,
+.form-control {
+    width: 100%;
+}
+
+@media (max-width: 480px) {
+    .card {
+        padding: 20px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .d-flex {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .arrow {
+        margin: 20px 0;
+    }
+
+    .ms-5 {
+        margin-left: 0 !important;
+    }
+
+    #convertedAmount {
+        width: 100%;
+    }
+
+    #convertBtn {
+        width: 100%;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    
+}
+
