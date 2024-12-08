@@ -19,7 +19,7 @@
                     <div class="d-flex align-items-center justify-content-center">
                         <div>
                             <label for="fromCurrency" class="form-label"><b>Amount</b></label>
-                            <div class="input-box d-flex align-items-center justify-content-center">
+                            <div class="input-box">
                                 <input type="number" id="amount" class="form-control border-0" placeholder=" " required>
                                 <select id="fromCurrency" class="form-select border-0" required>
                                     <option value="" disabled selected>Select</option>
@@ -27,21 +27,23 @@
                             </div>
                         </div>
 
-                        <div class="d-flex align-items-center justify-content-center text-center arrow">
-                            <img class="d-flex align-items-center justify-content-center" src="./images/ways.png" alt="">
+                        <div class="me-5 arrow">
+                            <img src="./images/ways.png" alt="Arrow">
                         </div>
 
-                        <div class="ms-5">
+                        <div>
                             <label for="toCurrency" class="form-label"><b>Converted To</b></label>
-                            <div class="input-box d-flex align-items-center justify-content-between">
-                                <input type="number" id="convertedAmount" class="form-control border-0" placeholder=" " readonly>
+                            <div class="input-box">
+                                <input type="number" id="convertedAmount" class="form-control border-0" placeholder=" "
+                                    readonly>
                                 <select id="toCurrency" class="form-select border-0" required>
                                     <option value="" disabled selected>Select</option>
                                 </select>
                             </div>
                         </div>
                     </div>
-                    <div class="pt-5 text-center">
+
+                    <div class="text-center pt-5">
                         <button type="button" id="convertBtn" class="btn btn-primary">Convert</button>
                     </div>
                 </form>
@@ -73,8 +75,8 @@
     </div>
 
     <script src="script.js"></script>
-    
-<!-- currency rates  -->
+
+    <!-- currency rates  -->
     <script>
         const API_KEY = '1SMxQumaAcC996SUXGsnlBPW44t2RR82';
 
