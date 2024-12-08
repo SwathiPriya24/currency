@@ -12,7 +12,6 @@ document.addEventListener("DOMContentLoaded", async () => {
             currencies.forEach((code) => {
                 const option = new Option(code, code);
                 fromCurrency.add(option);
-                // Make sure 'toCurrency' doesn't duplicate 'fromCurrency' option
                 if (fromCurrency.length > 1) {
                     const optionClone = option.cloneNode(true);
                     toCurrency.add(optionClone);
@@ -45,10 +44,8 @@ document.getElementById("convertBtn").addEventListener("click", async () => {
         const rateFrom = data.rates[fromCurrency];
         const rateTo = data.rates[toCurrency];
 
-        // Calculate the converted amount
         const convertedAmount = (amount / rateFrom) * rateTo;
 
-        // Display the result in the 'convertedAmount' input
         document.getElementById("convertedAmount").value = convertedAmount.toFixed(2);
     } catch (error) {
         console.error("Error fetching conversion rates:", error);

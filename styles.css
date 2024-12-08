@@ -1,14 +1,7 @@
-:root {
-    --primarycolor: #131842;
-    --secondarycolor: #E68369;
-    --tertiraycolor: #181850;
-    --btncolor: #405D72;
-    --fonthead: "Montserrat", sans-serif;
-    --fontcontent: "Mulish", sans-serif;
 
-}
+
 body {
-    background-color: #a2dfc3;
+    background-color:#a2dfc3;
     font-family: Arial, sans-serif;
 }
 h1{
@@ -21,7 +14,7 @@ h1{
 
 
 .btn-primary {
-    background-color: #2d6a4f;
+    background-color: #55705f;
     border: none;
     color: rgb(255, 255, 255);
 }
@@ -41,7 +34,7 @@ h1{
     margin: 50px auto;
     padding: 20px;
     border-radius: 10px;
-    background-color: #2d6a4f;
+    background-color: #55705f;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 .input-box{
@@ -52,7 +45,7 @@ h1{
 .currency-exchange{
     padding: 20px;
     border-radius: 10px;
-    background-color: #2d6a4f;
+    background-color: #55705F;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -70,7 +63,7 @@ h1{
     margin: 50px auto;
     padding: 20px;
     border-radius: 10px;
-    background-color: #2d6a4f;
+    background-color: #55705F;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -100,10 +93,11 @@ h1{
     padding: 10px;
     text-align: left;
     border-bottom: 1px solid #ddd;
+    background-color: var(--tertiraycolor) !important;
 }
 
 .currency-table th {
-    background-color: #2d6a4f;
+    background-color: #55705F;
 }
 
 .currency-table tr:hover {
@@ -116,7 +110,7 @@ h1{
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #2d6a4f !important;
+    color: #55705F !important;
     background-color:none;
     background-clip: padding-box;
     border: var(--bs-border-width) solid rgb(131, 128, 128);
@@ -135,7 +129,6 @@ h1{
 }
 
 
-/* Default styling for desktop */
 .card {
     max-width: 600px;
     margin: 0 auto;
