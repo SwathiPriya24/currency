@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", async () => {
-    const currenciesUrl = `https://api.exchangerate-api.com/v4/latest/USD`; // Base currency set to USD
+    const currenciesUrl = `https://api.exchangerate-api.com/v4/latest/USD`; 
     const fromCurrency = document.getElementById("fromCurrency");
     const toCurrency = document.getElementById("toCurrency");
 
